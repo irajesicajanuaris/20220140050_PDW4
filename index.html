@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PRAKTIKUM 4</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    body {
+      background-image: url('kotak.jpg');
+      background-size: cover; 
+      background-position: center; 
+    }
+  </style>
+</head>
+
+
+<body>
+  <section class="paragraf">
+    <div id="hasil"></div>  
+  </section>
+  <div class="masuk">
+    <div class="halaman">
+      <form action="">
+        <h1>Apakah Kamu Suka Kucing?</h1>
+        <hr>
+        <h2>kalau iya tekan tombol suka sekarang!</h2>
+        <p>tekan tombol berikut untuk masuk</p>
+        <button style="cursor: pointer;" onclick="show()">Iya, Aku suka!</button>
+        <p class="txt-waktu" id="hasil"></p>
+      </form>
+    </div>
+    <div class="rightpic">
+      <img src="kucing.jpg" alt=""></div>
+   
+      <script>
+        tanggal = new Date();
+      
+        document.getElementById("hasil").innerHTML = tanggal
+      </script>
+
+        
+      </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
